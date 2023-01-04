@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: darkgray;
+}
+
+/* BARRA DE CARREGAMENTO */
+.loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.loading img{
+    position: relative;
+    width: 10rem;
+    margin-bottom: 10%;
+}
+
+.loading .porcent{
+    color: #6f006f;
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MENU */
+#navbar{
+    background-color: rgb(59, 51, 51);
+}
+
+#navbar-icon{
+   color: #fff;
+}
+
+#formulario-criarConta img{
+    width: 100px;
+    text-align: center;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+    text-align: center;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 a{
+    color: #fff;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 a:hover{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgb(59, 51, 51);
+}
+
+.dropdown-menu .dropdown-item:hover{ 
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.btn.btn-outline-success{
+    background-color: rgb(36, 31, 31);
+    color: #fff;
+    border-color: #000;
+    
+}
+
+.btn.btn-outline-success:hover{
+    color: rgb(59, 51, 51);
+    background-color: #fff;
+}
+
+.d-flex{
+    text-align: center;
+}
+
+.d-flex .form-control.me-2{
+    width: 410px;
+    border-color: #000;
+}
+
+.d-flex .form-control.me-2:focus{
+    box-shadow: none;
+}
+
+.entrar-cadastrar{
+    text-align: center;
+}
+
+.entrar-cadastrar{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.entrar-cadastrar:hover{
+    color:rgb(22, 20, 20);
+}
+
+/* FORMULARIO PARA CRIAR CONTA E ENTRAR CONTA*/
+
+#formulario{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10%;
+    margin: 30% 4% 1% 2%;
+}
+
+#formulario h1{
+    text-align: center;
+    color: #fff;
+}
+
+#formulario input:hover{
+    box-shadow: none;
+    border: #000;
+}
+
+#formulario input:focus{
+    box-shadow: none;
+}
+
+.form-check{
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.form-check a{
+    color:rgb(36, 31, 31);
+}
+
+.form-check a:hover{
+    color:rgb(22, 20, 20);
+}
+
+#nome-sobrenome{
+    display: flex;
+}
+
+#formulario #botão{
+    text-align: center; 
+}
+
+#formulario #botão button{
+    background-color: rgb(36, 31, 31);
+    box-shadow: none;
+    border-color: rgb(59, 51, 51);
+}
+
+#formulario #botão button:hover{
+    border-color: rgb(36, 31, 31);
+    color:rgb(168, 168, 168);
+    box-shadow: none;
+}
+
+#formulario #botão button:focus{
+    box-shadow: none;
+}
+
+#esqueciSenha{
+    color: rgb(22, 20, 20);
+}
+
+#esqueciSenha:hover{
+    color: #fff;
+}
+
+.modal.fade{
+    background-color: rgb(22, 20, 20);
+}
+
+#title-modal{
+    color: black;
+    font-size: 30px;
+}
+
+#input-modal:hover{
+    border-color: #000;
+}
+
+#corpo-img{
+    font-size: 40px;
+}
+
+#img-logo{
+    width: 120%;
+    
+}
+
+/* RESPONSIVIDADE TELA DE ENTRAR E CADASTRAR */
+@media only screen and (max-width: 1334px) {
+    #formulario{
+        width: 100%;
+        margin: 3% 4% 1% 2%;
+    }
+    #img-logo{
+       margin-top: 7%;
+       width: 100%;
+    }
+    #corpo-img{
+        display: none;
+    }
+    #total{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #formulario{
+        width: 100%;
+        margin: 3% 4% 1% 2%;
+    }
+    #img-logo{
+       margin-top: 7%;
+       width: 100%;
+    }
+    #corpo-img{
+        display: none;
+    }
+    #total{
+        width: 100%;
+    }
+}
+
+/* PÁGINA CONTATO*/
+
+/* FORMULARIO */
+
+#title{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #fff;
+}
+
+form #nameEmail{
+    display: flex;
+}
+
+#input-name{
+    margin-right: 4%;
+    color: #fff;
+}
+
+#termos a{
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+}
+
+#termos a:hover{
+    text-decoration: underline;
+}
+
+.btn.btn-primary{
+    width: auto;
+}
+
+#frm_contato .btn.btn-primary{
+    background-color: rgb(36, 31, 31);
+    color: #fff;
+    border-color: #000;
+}
+
+#frm_contato .btn.btn.btn-primary:hover{
+    color: rgb(59, 51, 51);
+    background-color: #fff;
+}
+
+#rodape-faleConosco{
+    margin-top: 6.5%;
+}
+
+label{
+    color: #111111;
+}
+
+#aceita{
+    color: #fff;
+}
+
+/* TERMOS DE USO */
+#termosDeUso{
+    color: #fff;
+}
+
+#termosDeUso h2{
+    margin-top: 5%;
+}
+
+#termosDeUso h2,
+#termosDeUso h3{
+    font-weight: bold;
+}
+
+#termosDeUso a{
+    color: rgb(22, 20, 20);
+}
+
+#termosDeUso a:hover{
+    color: rgb(107, 95, 95);
+}
+
+/* RODAPE */
+#rodape{
+    background-color: #3d3c3c;
+}
+
+#rodape #copyrigth{
+    background-color: rgba(0, 0, 0, 0.2);
+}

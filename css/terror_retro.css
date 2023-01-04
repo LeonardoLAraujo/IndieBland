@@ -1,0 +1,176 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    font-family:Verdana;
+    background-color: darkgrey;
+    
+}
+
+/* MENU */
+#navbar{
+    background-color: rgb(59, 51, 51);
+}
+
+#navbar-icon{
+   color: #fff;
+}
+
+#formulario-criarConta img{
+    width: 100px;
+    text-align: center;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+    text-align: center;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 a{
+    color: #fff;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 a:hover{
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.dropdown-menu{
+    background-color: rgb(59, 51, 51);
+}
+
+.dropdown-menu .dropdown-item:hover{ 
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.btn.btn-outline-success{
+    background-color: rgb(36, 31, 31);
+    color: #fff;
+    border-color: #000;
+    
+}
+
+.btn.btn-outline-success:hover{
+    color: rgb(59, 51, 51);
+    background-color: #fff;
+}
+
+.d-flex{
+    text-align: center;
+}
+
+.d-flex .form-control.me-2{
+    width: 100%;
+    border-color: #000;
+}
+
+.d-flex .form-control.me-2:focus{
+    box-shadow: none;
+}
+
+.entrar-cadastrar{
+    text-align: center;
+}
+
+.entrar-cadastrar{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.entrar-cadastrar:hover{
+    color:rgb(22, 20, 20);
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+#line1{
+    background-color: #3d3c3c;
+    color: #fff;
+}
+
+#line1 h2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#line1 img{
+    margin-bottom: 4%;
+}
+
+#line2 h2{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#line2 img{
+    margin-bottom: 4%;
+}
+
+#img-control{
+    width: 60%;
+}
+
+#btn-terror{
+    background-color: rgb(22, 20, 20);
+    border-color: #fff;
+    margin-bottom: 2%;
+}
+
+#btn-terror:hover{
+    color: rgb(22, 20, 20);
+    background-color: #fff;
+    border-color: #000;
+}
+
+/* COMENTARIO */
+#comentario{
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+/* JOGOS */
+#jogos{
+    margin-top: 2%;
+}
+
+.col-2 .card-body{
+    width: 100%;
+}
+
+#button-jogos{
+    text-align: center;
+    width: 100%;
+    background-color:rgb(59, 51, 51);
+    color: #fff;
+    border-color: #fff;
+}
+
+.card-body{
+    background-color: #3d3c3c;
+}
+
+#button-jogos:hover{
+    background-color:#fff;
+    color: rgb(59, 51, 51);
+}
+
+/* RODAPE */
+#rodape{
+    background-color: #3d3c3c;
+    position: bottom;
+}
+
+#rodape #copyrigth{
+    background-color: rgba(0, 0, 0, 0.2);
+}
